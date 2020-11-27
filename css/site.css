@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;	
+}
+body{
+	color: #550000;	
+}
+div {
+	/*box-sizing: border-box;	*/	
+	font-size: 1.25rem;	
+	position: relative;
+	padding:  15px;
+	background-color: 	#FFAAAA;
+	border: 1px solid black;
+	/*margin: 5px;*/
+	margin-bottom: 15px;
+	/*margin-right: 15px;*/
+}
+h1{
+	text-align: center;
+	font-size: 1.75rem;
+}
+.name{
+	color: white;	
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 150px;
+	padding: 5px;
+	font: 1.75rem bold;
+	text-align: center;	
+	float: none;
+}
+#first .name{
+	background-color: #671717;
+}
+#second .name{
+	background-color: #440505;
+}
+#therd .name{
+	background-color: #240000;
+}
+p{
+	margin-top: 50px;
+}
