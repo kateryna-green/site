@@ -1,23 +1,23 @@
-*{
-	box-sizing: border-box;	
+header{
+	background-color: 	#FFAAAA;
+	color: #550000;
 }
-body{
-	color: #550000;	
+header span{
+	text-align: left;
+	padding-left: 15px;
+	font-size: 1.25rem;	
 }
 div {
-	/*box-sizing: border-box;	*/	
 	font-size: 1.25rem;	
 	position: relative;
 	padding:  15px;
 	background-color: 	#FFAAAA;
-	border: 1px solid black;
-	/*margin: 5px;*/
-	margin-bottom: 15px;
-	/*margin-right: 15px;*/
+	border: 1px solid black;		
+	float:left;
 }
 h1{
-	text-align: center;
 	font-size: 1.75rem;
+	color: #550000;
 }
 .name{
 	color: white;	
@@ -28,7 +28,6 @@ h1{
 	padding: 5px;
 	font: 1.75rem bold;
 	text-align: center;	
-	float: none;
 }
 #first .name{
 	background-color: #671717;
@@ -39,6 +38,17 @@ h1{
 #therd .name{
 	background-color: #240000;
 }
+#first, #second, #therd{
+	margin-bottom: 15px;  	
+}
 p{
-	margin-top: 50px;
+	padding-top: 30px;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
 }
