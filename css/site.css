@@ -7,17 +7,23 @@ header span{
 	padding-left: 15px;
 	font-size: 1.25rem;	
 }
+body{
+	background-color: 	#FFAAAA;
+}
 div {
 	font-size: 1.25rem;	
 	position: relative;
-	padding:  15px;
-	background-color: 	#FFAAAA;
+	padding:  15px;	
 	border: 1px solid black;		
 	float:left;
+	margin: 0px auto 15 px;
 }
 h1{
 	font-size: 1.75rem;
 	color: #550000;
+}
+.row{
+	width: 100%;
 }
 .name{
 	color: white;	
@@ -35,12 +41,12 @@ h1{
 #second .name{
 	background-color: #440505;
 }
-#therd .name{
+#third .name{
 	background-color: #240000;
 }
-#first, #second, #therd{
+/*#first, #second, #therd{
 	margin-bottom: 15px;  	
-}
+}*/
 p{
 	padding-top: 30px;
 }
